@@ -1,51 +1,63 @@
-"""Streams, specializations, experience levels, interview types."""
+"""Educational & Professional Streams and Difficulty Mappings"""
+from typing import List
+
 STREAMS = {
-    "Computer Science": ["Data Structures and Algorithms", "Operating Systems", "DBMS", "Computer Networks",
-                         "Software Engineering", "Artificial Intelligence", "Machine Learning", "Web Development"],
-    "Information Technology": ["Programming", "DBMS", "Computer Networks", "Web Development", "Software Engineering"],
-    "Artificial Intelligence": ["Machine Learning", "Deep Learning", "NLP", "Generative AI", "LLMs"],
-    "Machine Learning": ["Supervised Learning", "Model Evaluation", "Feature Engineering", "Deep Learning"],
-    "Data Science": ["Python", "SQL", "Statistics", "Data Analysis", "Exploratory Data Analysis",
-                     "Machine Learning", "Deep Learning", "NLP", "Data Visualization", "Generative AI", "LLMs"],
-    "Data Analytics": ["SQL", "Data Analysis", "Data Visualization", "Statistics"],
-    "Data Engineering": ["SQL", "ETL", "Data Warehousing", "Big Data"],
-    "Web Development": ["Frontend", "Backend", "Databases", "APIs"],
-    "Software Development": ["Programming", "Data Structures and Algorithms", "Software Engineering", "Databases"],
-    "Cybersecurity": ["Network Security", "Cryptography", "Web Security"],
-    "Cloud Computing": ["Cloud Fundamentals", "Containers and DevOps", "Cloud Networking"],
-    "Electronics and Communication": ["Analog Electronics", "Digital Electronics", "Communication Systems"],
-    "Mechanical Engineering": ["Thermodynamics", "Fluid Mechanics", "Machine Design"],
-    "Civil Engineering": ["Structural Engineering", "Geotechnical Engineering", "Construction Management"],
-    "Electrical Engineering": ["Circuits", "Power Systems", "Machines"],
-    "Business and Management": ["Management Fundamentals", "Strategy", "Operations"],
-    "Finance": ["Corporate Finance", "Accounting", "Markets"],
-    "Marketing": ["Digital Marketing", "Consumer Behaviour", "Branding"],
-    "Human Resources": ["Recruitment", "Employee Relations", "Compensation"],
-    "Other": [],
+    "Computer Science": ["Core CS & Algorithms", "OOP", "OS & Architecture", "DBMS"],
+    "Information Technology": ["Enterprise Systems", "IT Infrastructure", "Systems Admin"],
+    "Artificial Intelligence": ["Generative AI & LLMs", "Deep Learning", "Computer Vision", "NLP"],
+    "Machine Learning": ["Supervised & Unsupervised Learning", "Feature Engineering", "MLOps"],
+    "Data Science": ["Python & Statistical Modeling", "EDA", "Hypothesis Testing", "Big Data"],
+    "Data Analytics": ["SQL & Advanced Querying", "Tableau / PowerBI", "Quantitative Analysis"],
+    "Data Engineering": ["ETL / ELT Pipelines", "Spark & Kafka", "Data Warehousing", "Airflow"],
+    "Web Development": ["Frontend (React/Next)", "Backend (FastAPI/Node)", "Full Stack"],
+    "Software Development": ["Python Engineering", "Java / Spring Boot", "Design Patterns"],
+    "Cybersecurity": ["Network Security", "Penetration Testing", "Ethical Hacking"],
+    "Cloud Computing": ["AWS Architecture", "Azure", "GCP", "Docker & Kubernetes"],
+    "Electronics and Communication": ["Embedded Systems", "Signal Processing", "IoT", "VLSI"],
+    "Mechanical Engineering": ["Thermodynamics", "Machine Design", "CAD / CAM", "Robotics"],
+    "Civil Engineering": ["Structural Analysis", "Geotechnical", "Project Management"],
+    "Electrical Engineering": ["Power Systems", "Control Systems", "EVs & Drives"],
+    "Business and Management": ["Strategic Planning", "Supply Chain", "Product Management"],
+    "Finance": ["Financial Modeling", "Corporate Finance", "Investment Banking"],
+    "Marketing": ["Digital Marketing & SEO", "Brand Strategy", "Market Research"],
+    "Human Resources": ["Talent Acquisition", "HR Operations", "Employee Engagement"],
+    "Other": ["General Technical Domain", "Cross-Disciplinary Field"],
 }
 
-# Streams that share one question pool. Questions are NEVER pulled from outside a family.
-FAMILIES = {
-    "data_ai": {"Data Science", "Machine Learning", "Artificial Intelligence", "Data Analytics", "Data Engineering"},
-    "software": {"Computer Science", "Information Technology", "Web Development", "Software Development"},
-}
+EXPERIENCE_LEVELS = [
+    "Fresher / Student (0 years)",
+    "Entry-Level (1-2 years)",
+    "Mid-Level (3-5 years)",
+    "Senior (5+ years)",
+]
 
+INTERVIEW_TYPES = [
+    "Technical Assessment",
+    "Conceptual & Foundational",
+    "System Design & Architecture",
+]
 
-def family_streams(stream: str) -> set:
-    for members in FAMILIES.values():
-        if stream in members:
-            return set(members)
-    return {stream}
-
-
-EXPERIENCE_LEVELS = ["Student", "Fresher", "Internship Level", "Entry Level", "Intermediate", "Experienced Professional"]
 DIFFICULTIES = ["Beginner", "Intermediate", "Advanced"]
+
 EXPERIENCE_TO_DIFFICULTY = {
-    "Student": ["Beginner"],
-    "Fresher": ["Beginner", "Intermediate"],
-    "Internship Level": ["Beginner", "Intermediate"],
-    "Entry Level": ["Beginner", "Intermediate"],
-    "Intermediate": ["Intermediate", "Advanced", "Beginner"],
-    "Experienced Professional": ["Advanced", "Intermediate"],
+    "Fresher / Student (0 years)": "Beginner",
+    "Entry-Level (1-2 years)": "Beginner",
+    "Mid-Level (3-5 years)": "Intermediate",
+    "Senior (5+ years)": "Advanced",
+    "Fresher": "Beginner",
+    "Junior": "Beginner",
+    "Mid": "Intermediate",
+    "Senior": "Advanced",
 }
-INTERVIEW_TYPES = ["Technical Interview", "Conceptual Interview", "HR / Behavioural Interview", "Mixed Interview"]
+
+_STREAM_FAMILIES = {
+    "Data Science": ["Data Science", "Machine Learning", "Artificial Intelligence", "Data Analytics", "Computer Science"],
+    "Machine Learning": ["Machine Learning", "Artificial Intelligence", "Data Science", "Computer Science"],
+    "Artificial Intelligence": ["Artificial Intelligence", "Machine Learning", "Data Science", "Computer Science"],
+    "Data Analytics": ["Data Analytics", "Data Science", "Computer Science"],
+    "Software Development": ["Software Development", "Computer Science", "Web Development"],
+    "Computer Science": ["Computer Science", "Software Development", "Web Development"],
+}
+
+def family_streams(stream: str) -> List[str]:
+    return _STREAM_FAMILIES.get(stream, [stream, "Computer Science", "Other"])
