@@ -1,0 +1,6 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+data/reincrew.db
+.streamlit/secrets.toml

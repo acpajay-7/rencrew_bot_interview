@@ -1,0 +1,7 @@
+streamlit>=1.40
+requests>=2.31
+python-dotenv>=1.0
+faster-whisper>=1.0
+av>=11,<19
+sentence-transformers>=3.0.0
+scikit-learn>=1.4.0

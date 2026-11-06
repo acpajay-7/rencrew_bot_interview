@@ -1,0 +1,1191 @@
+[
+  {
+    "stream": "Data Science",
+    "specialization": "Machine Learning",
+    "topic": "Fundamentals",
+    "subtopic": "Definition",
+    "difficulty": "Beginner",
+    "experience_level": "Fresher",
+    "interview_type": "Technical Interview",
+    "question": "What is Machine Learning?",
+    "reference": "Machine Learning is a field of AI where systems learn patterns from data to make predictions or decisions without being explicitly programmed for every case.",
+    "concepts": {
+      "learn_from_data": [
+        "learn from data",
+        "learns from data",
+        "learning from data",
+        "patterns from data",
+        "learn patterns from data",
+        "computers learn patterns",
+        "data patterns"
+      ],
+      "prediction_or_decision": [
+        "prediction",
+        "predictions",
+        "predict",
+        "decision",
+        "decisions",
+        "forecast",
+        "make predictions",
+        "make a prediction"
+      ],
+      "not_explicitly_programmed": [
+        "without being explicitly programmed",
+        "not explicitly programmed",
+        "without programming every rule",
+        "without rules for every case",
+        "without writing every rule",
+        "not manually programmed for each case",
+        "without writing rules for each case"
+      ]
+    },
+    "depth": [
+      "training data",
+      "model",
+      "algorithm",
+      "generalize",
+      "unseen data",
+      "evaluation"
+    ],
+    "source": "original",
+    "status": "approved"
+  },
+  {
+    "stream": "Data Science",
+    "specialization": "Machine Learning",
+    "topic": "Supervised Learning",
+    "subtopic": "Supervised vs Unsupervised",
+    "difficulty": "Beginner",
+    "experience_level": "Fresher",
+    "interview_type": "Technical Interview",
+    "question": "What is the difference between supervised and unsupervised learning?",
+    "reference": "Supervised learning uses labelled examples to learn a mapping from inputs to known targets. Unsupervised learning works with data without target labels to discover structure such as clusters.",
+    "concepts": {
+      "supervised_labelled": [
+        "labelled data",
+        "labeled data",
+        "labels",
+        "known target",
+        "target labels"
+      ],
+      "supervised_prediction": [
+        "predict",
+        "prediction",
+        "classification",
+        "regression",
+        "known output"
+      ],
+      "unsupervised_no_labels": [
+        "unlabelled data",
+        "unlabeled data",
+        "without labels",
+        "no labels",
+        "no target labels"
+      ],
+      "unsupervised_structure": [
+        "clusters",
+        "clustering",
+        "groups",
+        "patterns",
+        "structure",
+        "similarity"
+      ]
+    },
+    "depth": [
+      "classification",
+      "regression",
+      "clustering",
+      "dimensionality reduction",
+      "training examples"
+    ],
+    "source": "original",
+    "status": "approved"
+  },
+  {
+    "stream": "Data Science",
+    "specialization": "Machine Learning",
+    "topic": "Model Training",
+    "subtopic": "Overfitting",
+    "difficulty": "Beginner",
+    "experience_level": "Fresher",
+    "interview_type": "Technical Interview",
+    "question": "What is overfitting in Machine Learning?",
+    "reference": "Overfitting occurs when a model learns training data too closely, including noise, and performs poorly on unseen data.",
+    "concepts": {
+      "training_too_close": [
+        "memorizes training data",
+        "memorises training data",
+        "learns training data too closely",
+        "fits the training data too much",
+        "learns noise",
+        "training noise"
+      ],
+      "poor_generalization": [
+        "unseen data",
+        "test data",
+        "new data",
+        "generalize poorly",
+        "poor generalization",
+        "poorly on new data",
+        "does not generalize"
+      ]
+    },
+    "depth": [
+      "validation",
+      "regularization",
+      "cross-validation",
+      "simpler model",
+      "more data",
+      "early stopping"
+    ],
+    "source": "original",
+    "status": "approved"
+  },
+  {
+    "stream": "Data Science",
+    "specialization": "Machine Learning",
+    "topic": "Model Evaluation",
+    "subtopic": "Train/Test Split",
+    "difficulty": "Beginner",
+    "experience_level": "Fresher",
+    "interview_type": "Technical Interview",
+    "question": "Why do we split data into training and testing sets?",
+    "reference": "The training set fits the model. The test set estimates performance on unseen examples and helps assess generalization.",
+    "concepts": {
+      "train_fit": [
+        "train the model",
+        "fit the model",
+        "learn patterns",
+        "training set"
+      ],
+      "test_unseen": [
+        "unseen data",
+        "test set",
+        "new examples",
+        "unseen examples"
+      ],
+      "generalization": [
+        "generalization",
+        "generalise",
+        "generalize",
+        "real-world performance",
+        "performance estimate"
+      ]
+    },
+    "depth": [
+      "validation set",
+      "data leakage",
+      "evaluation metric",
+      "representative sample",
+      "holdout"
+    ],
+    "source": "original",
+    "status": "approved"
+  },
+  {
+    "stream": "Data Science",
+    "specialization": "Machine Learning",
+    "topic": "Model Evaluation",
+    "subtopic": "Confusion Matrix",
+    "difficulty": "Intermediate",
+    "experience_level": "Fresher",
+    "interview_type": "Technical Interview",
+    "question": "What is the purpose of a confusion matrix?",
+    "reference": "A confusion matrix compares predicted classes with actual classes and summarizes true positives, true negatives, false positives, and false negatives.",
+    "concepts": {
+      "compare_predictions": [
+        "predicted and actual",
+        "predictions with actual",
+        "predicted classes",
+        "actual classes",
+        "prediction versus truth"
+      ],
+      "classification": [
+        "classification",
+        "class labels",
+        "classifier",
+        "confusion matrix"
+      ],
+      "counts": [
+        "true positive",
+        "true positives",
+        "true negative",
+        "true negatives",
+        "false positive",
+        "false positives",
+        "false negative",
+        "false negatives",
+        "tp",
+        "tn",
+        "fp",
+        "fn"
+      ]
+    },
+    "depth": [
+      "precision",
+      "recall",
+      "specificity",
+      "classification errors",
+      "imbalanced data"
+    ],
+    "source": "original",
+    "status": "approved"
+  },
+  {
+    "stream": "Data Science",
+    "specialization": "Data Preprocessing",
+    "topic": "Feature Engineering",
+    "subtopic": "Missing Values",
+    "difficulty": "Beginner",
+    "experience_level": "Fresher",
+    "interview_type": "Technical Interview",
+    "question": "How would you handle missing values in a dataset?",
+    "reference": "Inspect why values are missing, then drop rows or columns if the loss is small, or impute with mean, median, mode or a model, optionally adding a missing-indicator feature.",
+    "concepts": {
+      "investigate": [
+        "why missing",
+        "pattern of missing",
+        "inspect missing",
+        "check missing",
+        "how many missing"
+      ],
+      "drop": [
+        "drop",
+        "remove rows",
+        "delete rows",
+        "remove columns"
+      ],
+      "impute": [
+        "impute",
+        "imputation",
+        "fill",
+        "replace with mean",
+        "median",
+        "mode"
+      ]
+    },
+    "depth": [
+      "indicator",
+      "knn imputer",
+      "outliers",
+      "data leakage",
+      "skewed"
+    ],
+    "source": "seed",
+    "status": "approved"
+  },
+  {
+    "stream": "Data Science",
+    "specialization": "Python",
+    "topic": "Pandas",
+    "subtopic": "Data Manipulation",
+    "difficulty": "Beginner",
+    "experience_level": "Fresher",
+    "interview_type": "Technical Interview",
+    "question": "What is a Pandas DataFrame and how is it different from a NumPy array?",
+    "reference": "A DataFrame is a labelled 2-D table that can hold columns of different types and offers indexing, grouping and joins. A NumPy array is a homogeneous n-dimensional array optimised for numeric computation.",
+    "concepts": {
+      "labelled_table": [
+        "labelled",
+        "labeled",
+        "table",
+        "rows and columns",
+        "column names",
+        "index"
+      ],
+      "mixed_types": [
+        "different types",
+        "different data types",
+        "heterogeneous",
+        "mixed types"
+      ],
+      "numpy_homogeneous": [
+        "homogeneous",
+        "same type",
+        "same data type",
+        "single type",
+        "numerical",
+        "n-dimensional",
+        "ndarray"
+      ]
+    },
+    "depth": [
+      "groupby",
+      "merge",
+      "vectorized",
+      "broadcasting",
+      "series"
+    ],
+    "source": "seed",
+    "status": "approved"
+  },
+  {
+    "stream": "Data Science",
+    "specialization": "SQL",
+    "topic": "Joins",
+    "subtopic": "Join Types",
+    "difficulty": "Beginner",
+    "experience_level": "Fresher",
+    "interview_type": "Technical Interview",
+    "question": "What is the difference between INNER JOIN and LEFT JOIN in SQL?",
+    "reference": "INNER JOIN returns only rows with matching keys in both tables. LEFT JOIN returns all rows from the left table plus matching rows from the right, with NULLs where there is no match.",
+    "concepts": {
+      "inner_matching": [
+        "only matching",
+        "matching rows",
+        "both tables",
+        "intersection"
+      ],
+      "left_all": [
+        "all rows from the left",
+        "all rows from left",
+        "every row from the left",
+        "left table"
+      ],
+      "nulls": [
+        "null",
+        "nulls",
+        "no match",
+        "missing"
+      ]
+    },
+    "depth": [
+      "right join",
+      "full outer join",
+      "primary key",
+      "foreign key",
+      "duplicates"
+    ],
+    "source": "seed",
+    "status": "approved"
+  },
+  {
+    "stream": "Data Science",
+    "specialization": "Statistics",
+    "topic": "Descriptive Statistics",
+    "subtopic": "Mean vs Median",
+    "difficulty": "Beginner",
+    "experience_level": "Fresher",
+    "interview_type": "Technical Interview",
+    "question": "When would you prefer the median over the mean?",
+    "reference": "The median is robust to outliers and skewed distributions, so it describes the typical value better when extreme values distort the mean.",
+    "concepts": {
+      "outliers": [
+        "outlier",
+        "outliers",
+        "extreme values"
+      ],
+      "skewed": [
+        "skewed",
+        "skewness",
+        "not symmetric",
+        "asymmetric"
+      ],
+      "robust": [
+        "robust",
+        "not affected",
+        "less sensitive",
+        "unaffected"
+      ]
+    },
+    "depth": [
+      "income",
+      "distribution",
+      "percentile",
+      "standard deviation",
+      "box plot"
+    ],
+    "source": "seed",
+    "status": "approved"
+  },
+  {
+    "stream": "Data Science",
+    "specialization": "Machine Learning",
+    "topic": "Model Training",
+    "subtopic": "Bias-Variance",
+    "difficulty": "Intermediate",
+    "experience_level": "Entry Level",
+    "interview_type": "Technical Interview",
+    "question": "Explain the bias-variance trade-off.",
+    "reference": "Bias is error from overly simple assumptions (underfitting); variance is sensitivity to training data (overfitting). Increasing model complexity lowers bias but raises variance, so you balance them to minimise total error.",
+    "concepts": {
+      "bias": [
+        "bias",
+        "underfit",
+        "underfitting",
+        "too simple"
+      ],
+      "variance": [
+        "variance",
+        "overfit",
+        "overfitting",
+        "too complex",
+        "sensitive to training data"
+      ],
+      "tradeoff": [
+        "trade off",
+        "tradeoff",
+        "balance",
+        "complexity"
+      ]
+    },
+    "depth": [
+      "regularization",
+      "cross-validation",
+      "ensemble",
+      "learning curve",
+      "total error"
+    ],
+    "source": "seed",
+    "status": "approved"
+  },
+  {
+    "stream": "Data Science",
+    "specialization": "Machine Learning",
+    "topic": "Model Evaluation",
+    "subtopic": "Precision and Recall",
+    "difficulty": "Intermediate",
+    "experience_level": "Entry Level",
+    "interview_type": "Technical Interview",
+    "question": "What are precision and recall, and when does recall matter more?",
+    "reference": "Precision is the share of predicted positives that are correct; recall is the share of actual positives found. Recall matters more when missing a positive is costly, such as disease screening or fraud detection.",
+    "concepts": {
+      "precision": [
+        "precision",
+        "predicted positives that are correct",
+        "correct positive predictions"
+      ],
+      "recall": [
+        "recall",
+        "sensitivity",
+        "actual positives",
+        "found all positives"
+      ],
+      "cost": [
+        "costly",
+        "cost of missing",
+        "false negative",
+        "disease",
+        "fraud",
+        "screening"
+      ]
+    },
+    "depth": [
+      "f1",
+      "threshold",
+      "imbalanced",
+      "roc",
+      "trade off"
+    ],
+    "source": "seed",
+    "status": "approved"
+  },
+  {
+    "stream": "Data Science",
+    "specialization": "Machine Learning",
+    "topic": "Feature Engineering",
+    "subtopic": "Scaling",
+    "difficulty": "Intermediate",
+    "experience_level": "Entry Level",
+    "interview_type": "Technical Interview",
+    "question": "Why do we scale features, and which algorithms are sensitive to scale?",
+    "reference": "Scaling puts features on comparable ranges so distance- or gradient-based algorithms such as KNN, SVM, k-means and neural networks are not dominated by large-valued features. Tree-based models are mostly insensitive.",
+    "concepts": {
+      "comparable_range": [
+        "same range",
+        "comparable",
+        "similar scale",
+        "normalize",
+        "standardize",
+        "standardise",
+        "min max"
+      ],
+      "sensitive_algos": [
+        "knn",
+        "svm",
+        "k means",
+        "gradient descent",
+        "neural network",
+        "distance based",
+        "logistic regression"
+      ],
+      "trees": [
+        "tree",
+        "random forest",
+        "not sensitive",
+        "insensitive"
+      ]
+    },
+    "depth": [
+      "standard scaler",
+      "dominate",
+      "convergence",
+      "data leakage",
+      "fit on training"
+    ],
+    "source": "seed",
+    "status": "approved"
+  },
+  {
+    "stream": "Data Science",
+    "specialization": "Machine Learning",
+    "topic": "Model Training",
+    "subtopic": "Regularization",
+    "difficulty": "Advanced",
+    "experience_level": "Intermediate",
+    "interview_type": "Technical Interview",
+    "question": "What is the difference between L1 and L2 regularization?",
+    "reference": "L1 adds the absolute value of weights as a penalty and can drive weights to exactly zero, giving sparse models and feature selection. L2 adds squared weights, shrinking them smoothly without zeroing.",
+    "concepts": {
+      "l1_sparse": [
+        "l1",
+        "lasso",
+        "absolute value",
+        "sparse",
+        "zero",
+        "feature selection"
+      ],
+      "l2_shrink": [
+        "l2",
+        "ridge",
+        "squared",
+        "shrink",
+        "small weights"
+      ],
+      "penalty": [
+        "penalty",
+        "regularization term",
+        "loss function",
+        "overfitting"
+      ]
+    },
+    "depth": [
+      "elastic net",
+      "lambda",
+      "multicollinearity",
+      "coefficients",
+      "bias variance"
+    ],
+    "source": "seed",
+    "status": "approved"
+  },
+  {
+    "stream": "Web Development",
+    "specialization": "Frontend",
+    "topic": "HTML/CSS/JS",
+    "subtopic": "DOM",
+    "difficulty": "Beginner",
+    "experience_level": "Fresher",
+    "interview_type": "Technical Interview",
+    "question": "What is the DOM in web development?",
+    "reference": "The Document Object Model is a tree representation of an HTML page that JavaScript can read and modify to change content, structure and style dynamically.",
+    "concepts": {
+      "tree": [
+        "tree",
+        "hierarchy",
+        "nodes",
+        "object model"
+      ],
+      "html_page": [
+        "html",
+        "web page",
+        "document"
+      ],
+      "js_manipulate": [
+        "javascript",
+        "modify",
+        "manipulate",
+        "change content",
+        "update"
+      ]
+    },
+    "depth": [
+      "event",
+      "query selector",
+      "virtual dom",
+      "render",
+      "css"
+    ],
+    "source": "seed",
+    "status": "approved"
+  },
+  {
+    "stream": "Web Development",
+    "specialization": "APIs",
+    "topic": "REST",
+    "subtopic": "HTTP Methods",
+    "difficulty": "Beginner",
+    "experience_level": "Fresher",
+    "interview_type": "Technical Interview",
+    "question": "What is a REST API and which HTTP methods are commonly used?",
+    "reference": "A REST API exposes resources through URLs and uses standard HTTP methods such as GET, POST, PUT/PATCH and DELETE, typically stateless and returning JSON.",
+    "concepts": {
+      "resources": [
+        "resource",
+        "resources",
+        "url",
+        "endpoint"
+      ],
+      "methods": [
+        "get",
+        "post",
+        "put",
+        "delete",
+        "patch"
+      ],
+      "stateless": [
+        "stateless",
+        "json",
+        "http"
+      ]
+    },
+    "depth": [
+      "status code",
+      "idempotent",
+      "authentication",
+      "headers",
+      "versioning"
+    ],
+    "source": "seed",
+    "status": "approved"
+  },
+  {
+    "stream": "Web Development",
+    "specialization": "Frontend",
+    "topic": "JavaScript",
+    "subtopic": "Async",
+    "difficulty": "Intermediate",
+    "experience_level": "Entry Level",
+    "interview_type": "Technical Interview",
+    "question": "What is the difference between synchronous and asynchronous JavaScript?",
+    "reference": "Synchronous code runs line by line and blocks; asynchronous code such as callbacks, promises and async/await lets long tasks like network calls run without blocking the main thread via the event loop.",
+    "concepts": {
+      "sync_blocking": [
+        "blocking",
+        "one at a time",
+        "line by line",
+        "blocks",
+        "sequential"
+      ],
+      "async_nonblocking": [
+        "non blocking",
+        "does not block",
+        "callback",
+        "promise",
+        "async await",
+        "later"
+      ],
+      "event_loop": [
+        "event loop",
+        "single thread",
+        "call stack",
+        "main thread"
+      ]
+    },
+    "depth": [
+      "fetch",
+      "microtask",
+      "settimeout",
+      "error handling",
+      "race condition"
+    ],
+    "source": "seed",
+    "status": "approved"
+  },
+  {
+    "stream": "Web Development",
+    "specialization": "Databases",
+    "topic": "SQL vs NoSQL",
+    "subtopic": "Comparison",
+    "difficulty": "Intermediate",
+    "experience_level": "Entry Level",
+    "interview_type": "Technical Interview",
+    "question": "When would you choose a NoSQL database over a relational one?",
+    "reference": "Choose NoSQL for flexible or evolving schemas, large-scale horizontal scaling, and document, key-value or graph access patterns; choose relational when you need strict schemas, joins and ACID transactions.",
+    "concepts": {
+      "flexible": [
+        "flexible schema",
+        "schema less",
+        "unstructured",
+        "evolving"
+      ],
+      "scale": [
+        "horizontal",
+        "scale",
+        "scalability",
+        "large volume"
+      ],
+      "acid_contrast": [
+        "acid",
+        "transactions",
+        "joins",
+        "relational",
+        "consistency"
+      ]
+    },
+    "depth": [
+      "mongodb",
+      "redis",
+      "cap theorem",
+      "sharding",
+      "eventual consistency"
+    ],
+    "source": "seed",
+    "status": "approved"
+  },
+  {
+    "stream": "Computer Science",
+    "specialization": "Data Structures and Algorithms",
+    "topic": "Data Structures",
+    "subtopic": "Stack vs Queue",
+    "difficulty": "Beginner",
+    "experience_level": "Fresher",
+    "interview_type": "Technical Interview",
+    "question": "What is the difference between a stack and a queue?",
+    "reference": "A stack is LIFO: the last element added is removed first (push/pop). A queue is FIFO: the first element added is removed first (enqueue/dequeue).",
+    "concepts": {
+      "stack_lifo": [
+        "lifo",
+        "last in first out",
+        "last in, first out",
+        "push",
+        "pop"
+      ],
+      "queue_fifo": [
+        "fifo",
+        "first in first out",
+        "first in, first out",
+        "enqueue",
+        "dequeue"
+      ]
+    },
+    "depth": [
+      "undo",
+      "bfs",
+      "dfs",
+      "call stack",
+      "deque"
+    ],
+    "source": "seed",
+    "status": "approved"
+  },
+  {
+    "stream": "Computer Science",
+    "specialization": "Operating Systems",
+    "topic": "Processes",
+    "subtopic": "Process vs Thread",
+    "difficulty": "Beginner",
+    "experience_level": "Fresher",
+    "interview_type": "Technical Interview",
+    "question": "What is the difference between a process and a thread?",
+    "reference": "A process is an independent program in execution with its own memory space; threads are lightweight units inside a process that share its memory, making communication cheap but requiring synchronisation.",
+    "concepts": {
+      "process_isolated": [
+        "own memory",
+        "separate memory",
+        "independent",
+        "isolated",
+        "address space"
+      ],
+      "thread_shared": [
+        "share memory",
+        "shared memory",
+        "lightweight",
+        "within a process",
+        "same process"
+      ],
+      "sync": [
+        "synchronization",
+        "synchronisation",
+        "race condition",
+        "lock",
+        "mutex"
+      ]
+    },
+    "depth": [
+      "context switch",
+      "deadlock",
+      "semaphore",
+      "scheduling",
+      "ipc"
+    ],
+    "source": "seed",
+    "status": "approved"
+  },
+  {
+    "stream": "Computer Science",
+    "specialization": "DBMS",
+    "topic": "Normalization",
+    "subtopic": "Normal Forms",
+    "difficulty": "Intermediate",
+    "experience_level": "Entry Level",
+    "interview_type": "Technical Interview",
+    "question": "What is database normalization and why is it used?",
+    "reference": "Normalization organises tables to reduce redundancy and avoid update, insert and delete anomalies by splitting data according to normal forms such as 1NF, 2NF and 3NF.",
+    "concepts": {
+      "redundancy": [
+        "redundancy",
+        "duplicate data",
+        "duplication",
+        "repeated data"
+      ],
+      "anomalies": [
+        "anomaly",
+        "anomalies",
+        "update anomaly",
+        "inconsistency"
+      ],
+      "normal_forms": [
+        "1nf",
+        "2nf",
+        "3nf",
+        "normal form",
+        "bcnf"
+      ]
+    },
+    "depth": [
+      "denormalization",
+      "functional dependency",
+      "primary key",
+      "foreign key",
+      "performance"
+    ],
+    "source": "seed",
+    "status": "approved"
+  },
+  {
+    "stream": "Computer Science",
+    "specialization": "Computer Networks",
+    "topic": "Protocols",
+    "subtopic": "TCP vs UDP",
+    "difficulty": "Beginner",
+    "experience_level": "Fresher",
+    "interview_type": "Technical Interview",
+    "question": "What is the difference between TCP and UDP?",
+    "reference": "TCP is connection-oriented and reliable, with ordering, acknowledgements and retransmission. UDP is connectionless and faster with no delivery guarantee, suited to streaming and gaming.",
+    "concepts": {
+      "tcp_reliable": [
+        "reliable",
+        "connection oriented",
+        "acknowledg",
+        "retransmission",
+        "ordered",
+        "handshake"
+      ],
+      "udp_fast": [
+        "connectionless",
+        "no guarantee",
+        "faster",
+        "low latency",
+        "unreliable"
+      ],
+      "use_cases": [
+        "streaming",
+        "gaming",
+        "video call",
+        "dns",
+        "web browsing",
+        "file transfer"
+      ]
+    },
+    "depth": [
+      "three way handshake",
+      "flow control",
+      "congestion",
+      "packet loss",
+      "port"
+    ],
+    "source": "seed",
+    "status": "approved"
+  },
+  {
+    "stream": "Cybersecurity",
+    "specialization": "Web Security",
+    "topic": "Attacks",
+    "subtopic": "SQL Injection",
+    "difficulty": "Beginner",
+    "experience_level": "Fresher",
+    "interview_type": "Technical Interview",
+    "question": "What is SQL injection and how do you prevent it?",
+    "reference": "SQL injection happens when untrusted input is concatenated into a query so an attacker can alter it. Prevent it with parameterised queries or prepared statements, input validation and least-privilege database accounts.",
+    "concepts": {
+      "attack": [
+        "untrusted input",
+        "user input",
+        "malicious input",
+        "alter the query",
+        "inject",
+        "concatenat"
+      ],
+      "prevention": [
+        "parameterized",
+        "parameterised",
+        "prepared statement",
+        "orm",
+        "sanitize",
+        "validate input"
+      ],
+      "least_privilege": [
+        "least privilege",
+        "limited permissions",
+        "restricted account"
+      ]
+    },
+    "depth": [
+      "xss",
+      "waf",
+      "escaping",
+      "stored procedure",
+      "error messages"
+    ],
+    "source": "seed",
+    "status": "approved"
+  },
+  {
+    "stream": "Cybersecurity",
+    "specialization": "Cryptography",
+    "topic": "Encryption",
+    "subtopic": "Symmetric vs Asymmetric",
+    "difficulty": "Intermediate",
+    "experience_level": "Entry Level",
+    "interview_type": "Technical Interview",
+    "question": "What is the difference between symmetric and asymmetric encryption?",
+    "reference": "Symmetric encryption uses one shared secret key for both encryption and decryption and is fast. Asymmetric uses a public/private key pair, solving key distribution but is slower; TLS combines both.",
+    "concepts": {
+      "symmetric": [
+        "same key",
+        "shared key",
+        "single key",
+        "aes",
+        "secret key"
+      ],
+      "asymmetric": [
+        "public key",
+        "private key",
+        "key pair",
+        "rsa",
+        "two keys"
+      ],
+      "combined": [
+        "tls",
+        "https",
+        "hybrid",
+        "key exchange",
+        "slower",
+        "faster"
+      ]
+    },
+    "depth": [
+      "digital signature",
+      "certificate",
+      "diffie hellman",
+      "key distribution",
+      "hash"
+    ],
+    "source": "seed",
+    "status": "approved"
+  },
+  {
+    "stream": "Cloud Computing",
+    "specialization": "Cloud Fundamentals",
+    "topic": "Service Models",
+    "subtopic": "IaaS PaaS SaaS",
+    "difficulty": "Beginner",
+    "experience_level": "Fresher",
+    "interview_type": "Technical Interview",
+    "question": "Explain IaaS, PaaS and SaaS.",
+    "reference": "IaaS provides virtual infrastructure such as servers and storage; PaaS provides a managed platform to deploy code without managing servers; SaaS delivers finished applications over the internet.",
+    "concepts": {
+      "iaas": [
+        "iaas",
+        "infrastructure",
+        "virtual machine",
+        "servers",
+        "storage"
+      ],
+      "paas": [
+        "paas",
+        "platform",
+        "deploy code",
+        "runtime",
+        "managed platform"
+      ],
+      "saas": [
+        "saas",
+        "software",
+        "application over the internet",
+        "gmail",
+        "finished application"
+      ]
+    },
+    "depth": [
+      "ec2",
+      "heroku",
+      "shared responsibility",
+      "scalability",
+      "pay as you go"
+    ],
+    "source": "seed",
+    "status": "approved"
+  },
+  {
+    "stream": "Cloud Computing",
+    "specialization": "Containers and DevOps",
+    "topic": "Containers",
+    "subtopic": "Docker",
+    "difficulty": "Intermediate",
+    "experience_level": "Entry Level",
+    "interview_type": "Technical Interview",
+    "question": "What is Docker and how is a container different from a virtual machine?",
+    "reference": "Docker packages an application with its dependencies into a container image. Containers share the host OS kernel and are lightweight and fast to start, while virtual machines each run a full guest OS on a hypervisor.",
+    "concepts": {
+      "container": [
+        "container",
+        "image",
+        "package",
+        "dependencies",
+        "isolat"
+      ],
+      "shares_kernel": [
+        "share the kernel",
+        "host os",
+        "same kernel",
+        "lightweight",
+        "fast to start"
+      ],
+      "vm_contrast": [
+        "virtual machine",
+        "hypervisor",
+        "guest os",
+        "full os",
+        "heavier"
+      ]
+    },
+    "depth": [
+      "dockerfile",
+      "registry",
+      "kubernetes",
+      "orchestration",
+      "portability"
+    ],
+    "source": "seed",
+    "status": "approved"
+  },
+  {
+    "stream": "Mechanical Engineering",
+    "specialization": "Thermodynamics",
+    "topic": "Laws",
+    "subtopic": "First and Second Law",
+    "difficulty": "Beginner",
+    "experience_level": "Fresher",
+    "interview_type": "Technical Interview",
+    "question": "State the first and second laws of thermodynamics.",
+    "reference": "The first law is conservation of energy: energy cannot be created or destroyed, only converted. The second law says entropy of an isolated system never decreases and heat flows spontaneously from hot to cold, limiting engine efficiency.",
+    "concepts": {
+      "first_law": [
+        "conservation of energy",
+        "energy cannot be created",
+        "energy is conserved",
+        "internal energy",
+        "heat and work"
+      ],
+      "second_law": [
+        "entropy",
+        "hot to cold",
+        "cannot be 100",
+        "irreversible",
+        "heat engine"
+      ]
+    },
+    "depth": [
+      "carnot",
+      "efficiency",
+      "isolated system",
+      "enthalpy",
+      "reversible"
+    ],
+    "source": "seed",
+    "status": "approved"
+  },
+  {
+    "stream": "Business and Management",
+    "specialization": "Management Fundamentals",
+    "topic": "Planning",
+    "subtopic": "SWOT",
+    "difficulty": "Beginner",
+    "experience_level": "Fresher",
+    "interview_type": "Conceptual Interview",
+    "question": "What is a SWOT analysis and how would you use it?",
+    "reference": "SWOT evaluates internal Strengths and Weaknesses and external Opportunities and Threats to inform strategic decisions and planning.",
+    "concepts": {
+      "four_parts": [
+        "strengths",
+        "weaknesses",
+        "opportunities",
+        "threats"
+      ],
+      "internal_external": [
+        "internal",
+        "external"
+      ],
+      "decision": [
+        "strategy",
+        "strategic",
+        "planning",
+        "decision"
+      ]
+    },
+    "depth": [
+      "competitor",
+      "market",
+      "action plan",
+      "prioritise",
+      "swot matrix"
+    ],
+    "source": "seed",
+    "status": "approved"
+  },
+  {
+    "stream": "Human Resources",
+    "specialization": "Recruitment",
+    "topic": "Hiring",
+    "subtopic": "Structured Interview",
+    "difficulty": "Beginner",
+    "experience_level": "Fresher",
+    "interview_type": "HR / Behavioural Interview",
+    "question": "Why are structured interviews preferred over unstructured ones?",
+    "reference": "Structured interviews ask every candidate the same job-related questions scored on a common rubric, improving consistency, fairness and predictive validity versus unstructured conversations.",
+    "concepts": {
+      "same_questions": [
+        "same questions",
+        "consistent",
+        "standardized",
+        "standardised",
+        "every candidate"
+      ],
+      "rubric": [
+        "rubric",
+        "scoring",
+        "scored",
+        "criteria",
+        "rating scale"
+      ],
+      "fairness": [
+        "fair",
+        "bias",
+        "reduce bias",
+        "objective",
+        "validity"
+      ]
+    },
+    "depth": [
+      "job related",
+      "legal",
+      "predictive",
+      "behavioural",
+      "panel"
+    ],
+    "source": "seed",
+    "status": "approved"
+  }
+]

@@ -1,0 +1,10 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+data/reincrew.db
+.streamlit/secrets.toml
+*.db
+*.sqlite
+*.sqlite3
+api_calls.log
